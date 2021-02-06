@@ -1,0 +1,29 @@
+{
+  "name": "window",
+  "version": "1.0.0",
+  "description": "window",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "window"
+  ],
+  "author": "Kirill",
+  "license": "ISC",
+  "browserslist": [
+    "> 1%"
+  ],
+  "devDependencies": {
+    "@babel/cli": "^7.12.13",
+    "@babel/core": "^7.12.13",
+    "@babel/preset-env": "^7.12.13",
+    "webpack": "^5.21.1",
+    "webpack-cli": "^4.5.0"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.12.1",
+    "babel-loader": "^8.2.2",
+    "loader": "^2.1.1"
+  }
+}
